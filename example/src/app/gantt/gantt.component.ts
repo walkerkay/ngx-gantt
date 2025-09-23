@@ -85,11 +85,11 @@ export class AppGanttExampleComponent implements OnInit, AfterViewInit {
 
     ngOnInit(): void {
         // init items children
-        this.items.forEach((item, index) => {
-            if (index % 5 === 0) {
-                item.children = randomItems(random(1, 5), item);
-            }
-        });
+        // this.items.forEach((item, index) => {
+        //     if (index % 5 === 0) {
+        //         item.children = randomItems(random(1, 5), item);
+        //     }
+        // });
     }
 
     ngAfterViewInit() {
